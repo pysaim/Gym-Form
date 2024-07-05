@@ -1,0 +1,168 @@
+body {
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+    background: url('14 gym.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid yellow; */
+    position: absolute;
+    left: 20px;
+    top: 15px
+}
+
+.left img {
+    width: 70px;
+}
+
+.left div {
+    text-align: center;
+    line-height: 3px;
+}
+
+.mid {
+    display: block;
+    width: 40%;
+    margin: 15px auto;
+    /* border: 2px solid orange */
+}
+
+.right {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    display: inline-block;
+    /* border: 2px solid palegreen */
+}
+
+/* .navbar{
+    display: inline-block;
+} */
+.navbar li {
+    display: inline-block;
+    font-size: 17px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px;
+
+}
+
+.navbar li a:hover {
+    color: rgb(202, 34, 34);
+    text-decoration: underline;
+}
+
+.navbar li a.active {
+    text-decoration: underline;
+}
+
+.btn {
+    margin: 0px 5px;
+    padding: 4px 10px;
+    background-color: yellow;
+    color: darkblue;
+    border: 2px solid orange;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 15px;
+
+}
+
+.btn:hover {
+    background-color: darkorange;
+}
+
+.container {
+    margin: 110px 412px;
+    padding: 36px;
+    border: 3px solid rgb(229, 203, 74);
+    width: 322px;
+    border-radius: 14px;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.container h3 {
+    text-align: center;
+}
+
+.btn1 {
+    display: block;
+    width: 51%;
+    margin: 24px auto;
+
+    color: #0cff2c;
+
+
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 14px;
+    padding: 3px 4px;
+}
+
+.buy {
+    border: 2px solid #b95a5a;
+    border-radius: 8px;
+    font-family: 'Gloria Hallelujah', cursive;
+    color: #dcf212;
+    cursor: pointer;
+    background-color: #8c11d878;
+
+
+}
+
+.buy:hover {
+
+    background: #92cbc3; 
+}
+
+.form input {
+    text-align: center;
+    display: block;
+    width: 232px;
+    padding: 4px;
+    border: 2px solid black;
+    margin: 3px auto;
+    border-radius: 4px;
+    font-size: 15px;
+    font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+
+/* whatspp icon */
+.box{
+    position: fixed;
+    right: 34px;
+    bottom: 16px;
+
+}
+
+.box img{
+    /* display: inline-block; */
+    /* border: 2px solid orange; */
+    width: 50px;
+    height: 50px;
+    margin: 2px auto;
+    position: fixed;
+    right: 30px;
+    bottom: 46px;
+    cursor: pointer;
+}
+
+
+/* header{
+    background-color: rgb(107, 133, 142);
+} */
